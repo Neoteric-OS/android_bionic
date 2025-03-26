@@ -1722,6 +1722,7 @@ cc_library {
         export_preprocessed_headers: ["include"],
         export_llndk_headers: ["libc_llndk_headers"],
     },
+    afdo: true,
 }
 
 cc_library {
